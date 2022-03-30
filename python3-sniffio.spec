@@ -8,7 +8,7 @@ Summary:	Sniff out which async library your code is running under
 Summary(pl.UTF-8):	Podsłuchiwanie, którą bibliotekę asynchroniczną wykorzystuje kod
 Name:		python3-sniffio
 Version:	1.2.0
-Release:	2
+Release:	3
 License:	MIT or Apache v2.0
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/sniffio/
