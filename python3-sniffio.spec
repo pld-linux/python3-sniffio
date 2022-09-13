@@ -7,15 +7,15 @@
 Summary:	Sniff out which async library your code is running under
 Summary(pl.UTF-8):	Podsłuchiwanie, którą bibliotekę asynchroniczną wykorzystuje kod
 Name:		python3-sniffio
-Version:	1.2.0
-Release:	3
+Version:	1.3.0
+Release:	1
 License:	MIT or Apache v2.0
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/sniffio/
 Source0:	https://files.pythonhosted.org/packages/source/s/sniffio/sniffio-%{version}.tar.gz
-# Source0-md5:	2d7cc6c3a94d3357d333a4ade4a83de8
+# Source0-md5:	abb96bcda81817d6c632915c53ac29c8
 URL:		https://pypi.org/project/sniffio/
-BuildRequires:	python3-modules >= 1:3.2
+BuildRequires:	python3-modules >= 1:3.7
 BuildRequires:	python3-setuptools
 %if %{with tests}
 #BuildRequires:	python3-curio
@@ -27,7 +27,7 @@ BuildRequires:	python3-sphinx_rtd_theme
 BuildRequires:	python3-sphinxcontrib-trio
 BuildRequires:	sphinx-pdg-3
 %endif
-Requires:	python3-modules >= 1:3.2
+Requires:	python3-modules >= 1:3.7
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
